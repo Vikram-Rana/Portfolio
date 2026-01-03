@@ -321,6 +321,7 @@ section.hero:before {
 .portfolio_main img {
   display: block;
   width: 100%;
+  height: auto;
 }
 
 
@@ -1463,3 +1464,4 @@ a.back-button {
     width: 20px;
   }
 }
+
