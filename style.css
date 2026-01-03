@@ -498,15 +498,17 @@ section.hero:before {
   aspect-ratio: 1 / 1;
   background-color: rgb(0 0 0 / 15%);
   animation: fadeUp 0.5s ease both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 [data-content="logo"].work-gallery .work-item{
   background-color: rgb(255 255 255 / 100%);
 }
 .work-item img {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   height: auto;
   max-height: 100%;
   object-fit: contain;
