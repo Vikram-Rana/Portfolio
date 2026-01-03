@@ -1082,7 +1082,7 @@ a.back-button {
     font-family: Poppins, sans-serif;
     text-transform: capitalize;
 }
-.portfolio_main:after {
+#contact .portfolio_main:after {
     content: "© 2026 Vikram Rana. All rights reserved.";
     position: absolute;
     bottom: 10px;
@@ -1466,5 +1466,6 @@ a.back-button {
     width: 20px;
   }
 }
+
 
 
