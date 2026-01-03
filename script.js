@@ -98,7 +98,7 @@ function setupPagination(gallery) {
 
   // If pagination not needed
   if (items.length <= ITEMS_PER_PAGE) {
-    items.forEach(item => (item.style.display = "block"));
+    items.forEach(item => (item.style.display = "flex"));
     return;
   }
 
@@ -149,7 +149,7 @@ function renderPage(items, page) {
 
   items.forEach((item, index) => {
     item.style.display =
-      index >= start && index < end ? "block" : "none";
+      index >= start && index < end ? "flex" : "none";
   });
 }
 

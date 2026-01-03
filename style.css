@@ -8,7 +8,7 @@
 /* HERO BACKGROUND */
 .hero {
   min-height: 100vh;
-  background: url("images/back2.jpg") no-repeat center / cover;
+  background: url("images/back2.webp") no-repeat center / cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -82,7 +82,7 @@ button#menuClose {
   width: 200px;
   position: absolute;
   z-index: -1;
-  background: url(images/flowers.png) no-repeat center / contain;
+  background: url(images/flowers.webp) no-repeat center / contain;
   opacity: .2;
   top: calc(50% - 100px);
   left: calc(50% - 100px);
@@ -312,7 +312,7 @@ section.hero:before {
     position: absolute;
     top: -30px;
     right: 27%;
-    background: url(images/small-leaf.png) no-repeat center / contain;
+    background: url(images/small-leaf.webp) no-repeat center / contain;
     transform: rotate(180deg);
 }
 .hero_2 {
@@ -330,7 +330,7 @@ section.hero:before {
 
 .work-section {
   padding: 120px 100px;
-  background: url(images/back2.jpg) no-repeat center / cover;
+  background: url(images/back2.webp) no-repeat center / cover;
   position: relative;
   overflow: hidden;
 }
@@ -361,7 +361,7 @@ section.hero:before {
     width: 180px;
     aspect-ratio: 1 / 1;
     position: absolute;
-    background: url(images/flower3.png);
+    background: url(images/flower3.webp);
     top: 60px;
     left: -60px;
     background-size: contain;
@@ -375,7 +375,7 @@ section.hero:before {
     width: 180px;
     aspect-ratio: 1 / 1;
     position: absolute;
-    background: url(images/flower6.png);
+    background: url(images/flower6.webp);
     bottom: -70px;
     right: 50px;
     background-size: contain;
@@ -504,8 +504,11 @@ section.hero:before {
 }
 .work-item img {
   width: 100%;
-  display: block;
-  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  max-height: 100%;
   object-fit: contain;
 }
 
@@ -572,7 +575,7 @@ section.hero:before {
 
 .skills-section {
   padding: 120px 100px;
-  background: url(images/back2.jpg) no-repeat center / cover;
+  background: url(images/back2.webp) no-repeat center / cover;
   position: relative;
   overflow: hidden;
 }
@@ -603,7 +606,7 @@ section.skills-section:after {
     width: 180px;
     aspect-ratio: 1 / 1;
     position: absolute;
-    background: url(images/flower2.png);
+    background: url(images/flower2.webp);
     top: 60px;
     right: -60px;
     background-size: contain;
@@ -617,7 +620,7 @@ section.skills-section:before {
     width: 180px;
     aspect-ratio: 1 / 1;
     position: absolute;
-    background: url(images/flower4.png);
+    background: url(images/flower4.webp);
     bottom: -70px;
     left: 50px;
     background-size: contain;
@@ -701,7 +704,7 @@ section.skills-section:before {
 
 .about-section {
   padding: 120px 100px;
-  background: url("images/plain-black.jpg") no-repeat center / cover;
+  background: url("images/plain-black.webp") no-repeat center / cover;
   color: #ffffff;
 }
 
@@ -801,7 +804,7 @@ section.skills-section:before {
 
 .testimonial-section {
   padding: 120px 100px;
-  background: url("images/back2.jpg") center / cover no-repeat;
+  background: url("images/back2.webp") center / cover no-repeat;
 }
 
 /* HEADING */
@@ -951,7 +954,7 @@ section.skills-section:before {
     width: 180px;
     aspect-ratio: 1 / 1;
     position: absolute;
-    background: url(images/flower2.png);
+    background: url(images/flower2.webp);
     bottom: 60px;
     right: -60px;
     background-size: contain;
@@ -965,7 +968,7 @@ section.skills-section:before {
     width: 180px;
     aspect-ratio: 1 / 1;
     position: absolute;
-    background: url(images/flower6.png);
+    background: url(images/flower6.webp);
     top: -70px;
     left: 50px;
     background-size: contain;
